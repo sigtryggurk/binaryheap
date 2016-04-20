@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		88EE78741B05CA8E00188DA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88EE78731B05CA8E00188DA2 /* main.cpp */; };
+		88EE787C1B05CAA100188DA2 /* binheap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88EE787A1B05CAA100188DA2 /* binheap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		88EE78701B05CA8E00188DA2 /* BinaryHeap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinaryHeap; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE78731B05CA8E00188DA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		88EE787A1B05CAA100188DA2 /* binheap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binheap.cpp; sourceTree = "<group>"; };
+		88EE787B1B05CAA100188DA2 /* binheap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binheap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				88EE78731B05CA8E00188DA2 /* main.cpp */,
+				88EE787A1B05CAA100188DA2 /* binheap.cpp */,
+				88EE787B1B05CAA100188DA2 /* binheap.h */,
 			);
 			path = BinaryHeap;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EE78741B05CA8E00188DA2 /* main.cpp in Sources */,
+				88EE787C1B05CAA100188DA2 /* binheap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
